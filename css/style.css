@@ -9815,3 +9815,13 @@ p {
 .progress-bar .fill:hover {
   background-color: #0056b3; /* Darker blue on hover */
 }
+.image-container {
+  background-color: #333; /* Dark background color */
+  padding: 20px; /* Optional padding */
+  border-radius: 10px; /* Optional rounded corners */
+  display: inline-block; /* Keeps the background only around the image */
+}
+
+.image-container img {
+  border-radius: 10px; /* Optional rounded corners for the image */
+}
